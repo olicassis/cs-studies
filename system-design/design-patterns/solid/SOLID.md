@@ -513,4 +513,4 @@ After refactoring, a high-level interface is introduced, which both `MongoDB` an
 
 ## References
 
-* Book reference: [Dive Into Design Patterns](https://refactoring.guru/design-patterns/book) by Alexander Shvets, Refactoring.Guru, 2022
+* Book reference: [Dive Into Design Patterns](https://refactoring.guru/design-patterns/book) by Alexander Shvets, Refactoring.Guru, 2022, pages 51–70.
