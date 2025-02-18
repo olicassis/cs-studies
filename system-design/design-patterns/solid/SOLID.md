@@ -207,7 +207,7 @@ The Liskov Substitution Principle (LSP) states that **when extending a class, en
 
 Let's examine an example of this principle being violated:
 
-> TypeScript Implementation of code in the diagram on pages 62 and 63 from the book *Dive Into Design Patterns* by Alexander Shvets, Refactoring.Guru, 2022. Available at: [https://refactoring.guru/design-patterns/book](https://refactoring.guru/design-patterns/book)
+> TypeScript implementation of code in the diagram on pages 62 and 63 from the book *Dive Into Design Patterns* by Alexander Shvets, Refactoring.Guru, 2022. Available at: [https://refactoring.guru/design-patterns/book](https://refactoring.guru/design-patterns/book)
 
 
 Before refactoring:
@@ -306,7 +306,7 @@ Before refactoring, the implementation violated the LSP by introducing exception
 
 The Interface Segregation Principle (ISP) states that **clients should not be required to rely on methods they do not utilize**. A client class should implement only the methods that are truly essential. Instead of using a single interface with an excessive number of methods, break it down into multiple refined interfaces and implement them in a class as needed.
 
-> TypeScript Implementation of code in the diagram on pages 65 and 66 from the book *Dive Into Design Patterns* by Alexander Shvets, Refactoring.Guru, 2022. Available at: [https://refactoring.guru/design-patterns/book](https://refactoring.guru/design-patterns/book)
+> TypeScript implementation of code in the diagram on pages 65 and 66 from the book *Dive Into Design Patterns* by Alexander Shvets, Refactoring.Guru, 2022. Available at: [https://refactoring.guru/design-patterns/book](https://refactoring.guru/design-patterns/book)
 
 Before refactoring:
 
@@ -411,7 +411,7 @@ The Dependency Inversion Principle (DIP) states that **high-level classes should
 
 The DIP proposes reversing the direction of this dependency. When a low-level class implements the interfaces that high-level classes depend on, it inherently ties itself to the business logic layer. This approach often aligns with OCP, as low-level classes can be extended to accommodate different business logic implementations without modifying existing code.
 
-> TypeScript Implementation of code in the diagram on page 69 from the book *Dive Into Design Patterns* by Alexander Shvets, Refactoring.Guru, 2022. Available at: [https://refactoring.guru/design-patterns/book](https://refactoring.guru/design-patterns/book)
+> TypeScript implementation of code in the diagram on page 69 from the book *Dive Into Design Patterns* by Alexander Shvets, Refactoring.Guru, 2022. Available at: [https://refactoring.guru/design-patterns/book](https://refactoring.guru/design-patterns/book)
 
 Before refactoring:
 
