@@ -1,5 +1,19 @@
 # CREATIONAL DESIGN PATTERNS
 
+> **📝 Note:**  
+> To execute a compiled TypeScript file, run the following command:  
+>  
+> ```sh
+> npm run execute --filename=<filename>
+> ```
+>  
+> Replace `<filename>` with the actual file name (without the `.js` extension).  
+>  
+> **Example:**  
+> ```sh
+> npm run execute --filename=singleton
+> `
+
 The creational design patterns aim to enhance flexibility and promote the reuse of existing code by offering various mechanisms for creating objects.
 
 ## 🛠️ Factory Method
